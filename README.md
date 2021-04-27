@@ -6,7 +6,7 @@
 
 ## Descripción Y Contexto
 
-Proyecto consiste en CV académico
+Proyecto consiste en CV académico 
 
 ***
 ## Índice
@@ -59,46 +59,33 @@ $ git clone https://gitlab.com/angielisbethop/hoja-de-vida.git
 Dentro de la descarga, encontrará los siguientes directorios y archivos, agrupando lógicamente activos comunes. Verás algo como esto:
 
 ```
-Pizzeria_JSON/
-├── css/
-│   ├── bootstrap.css
-│   ├── bootstrap.css.map
-│   ├── bootstrap.min.css
-│   ├── bootstrap.min.css.map
-│   ├── bootstrap-grid.css
-│   ├── bootstrap-grid.css.map
-│   ├── bootstrap-grid.min.css
-│   ├── bootstrap-grid.min.css.map
-│   ├── bootstrap-reboot.css
-│   ├── bootstrap-reboot.css.map
-│   ├── bootstrap-reboot.min.css
-│   ├── bootstrap-reboot.min.css.map
-│   └── styles.css
-├── documents/
-│   └── IntroduccionJSON.pdf
-├── images/
-│   └── Pizzeria.png
-└── js/
-│   ├── bootstrap.bundle.js
-│   ├── bootstrap.bundle.js.map
-│   ├── bootstrap.bundle.min.js
-│   ├── bootstrap.bundle.min.js.map
-│   ├── bootstrap.js
-│   ├── bootstrap.js.map
-│   ├── bootstrap.min.js
-│   ├── bootstrap.min.js.map
-│   └── main.js
-└── json
-│   └── pizzeria.json
-└── README.md
-└── index.html
+HOJA_DE_VIDA
+|   index.html
+|   README.md
+|   
++---css
+|       index.css
+|       menu.css
+|       
++---html
+|       academic.html
+|       education.html
+|       personal.html
+|       projects.html
+|       summary.html
+|       
+\---images
+        foto_perfil.jpeg
+        index.png
+        portada-web.png
+        study.jpeg
 ```
 
 ## Demo
 
-Para ver el Demo de la aplicación puede dirigirse a: [Pizzería La QQTEÑA](http://ufps31.madarme.co/Lectura_Json/).
+Para ver el Demo de la aplicación puede dirigirse a: [Hoja de Vida](https://angielisbethop.github.io/).
 
-![Hoja_de_Vida](/images/Pizzeria.png "Esta es una imagen de muestra.")
+![Hoja_de_Vida](/images/index.png "Esta es una imagen de muestra.")
 
 ## Autor(es)
 
@@ -114,5 +101,5 @@ Para ver el Demo de la aplicación puede dirigirse a: [Pizzería La QQTEÑA](htt
 [Universidad Francisco de Paula Santander]: https://ww2.ufps.edu.co/
 
 ## Referencias
-
+   
 ###### Kinder, K. (2013). Sublime text: one editor to rule them all?. Linux Journal, 2013(232), 2.
